@@ -9,9 +9,9 @@ Today my Goal is
 4. create a zip file containing jar as well as web files
 
 -->
-<!--property name="appversion" value="3.0"/-->
+<property name="appversion" value="3.0"/>
 
-<property file="abc.txt"/>
+<!--property file="abc.txt"/-->
 
 <target name="clean">
 
