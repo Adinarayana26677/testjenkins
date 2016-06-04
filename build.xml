@@ -36,9 +36,9 @@ Today my Goal is
 		  
 	</target>
 	
-	<target name="jar" depends="compile">
+	<target name="war" depends="compile">
 	
-	<jar destfile="build/jar/ver${appversion}.jar" basedir="build/classes"/>
+	<war destfile="build/jar/ver${appversion}.war" webxml="WEB-INF/web.xml"/>
 	
 	  </target>
 	  
@@ -52,7 +52,7 @@ Today my Goal is
 	  
 	  </target>
 	  
-	  <target name="dist" depends="jar,copywebfiles">
+	  <target name="dist" depends="war,copywebfiles">
 	  
 	  <zip destfile="dist/ver${appversion}.zip">
 	       <fileset dir="build/web"/>
