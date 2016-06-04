@@ -1,0 +1,8 @@
+https://github.com/toniblyx/alfresco-backup-and-recovery-tool
+
+https://wiki.alfresco.com/wiki/Backup_and_Restore
+
+http://docs.alfresco.com/4.0/concepts/backup-intro.html
+
+http://media.amazonwebservices.com/AWS_Disaster_Recovery.pdf
+

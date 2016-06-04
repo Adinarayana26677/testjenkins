@@ -1,0 +1,11 @@
+<project name="javaproject" default="excl">
+
+<target name="excl">
+
+       <copy todir="lohith">
+	        <fileset dir="web">
+			<exclude name="b.xml"/>
+		</fileset>
+	  </copy>
+    </target>
+ </project>
